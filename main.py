@@ -5,8 +5,6 @@ from collections import Counter
 from google.cloud import storage
 
 from constants import DEFAULT_BUCKET, DEFAULT_FILES, STOPCHARS
-
-
 from report import create_response
 
 
