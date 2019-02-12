@@ -1,5 +1,4 @@
--r requirements.txt
-
+google-cloud-storage==1.14.0
 pytest==4.2.0
 pytest-cov==2.6.1
 pytest-mock==1.10.0
