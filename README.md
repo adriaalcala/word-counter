@@ -51,4 +51,3 @@ to get help, you can execute
 ``` [bash]
     python main.py --help
 ```
-
