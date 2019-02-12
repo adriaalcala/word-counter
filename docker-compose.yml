@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  wordcounter:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    volumes:
+      - .:/opt
