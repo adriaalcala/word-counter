@@ -1,0 +1,7 @@
+version: '3.2'
+
+services:
+  wordcounter:
+    build:
+      args:
+        - INCLUDE_TEST=1
