@@ -7,9 +7,7 @@ from google.cloud import storage
 from constants import DEFAULT_BUCKET, DEFAULT_FILES, STOPCHARS
 
 
-# from report import create_response
-def create_response(*args, **kwargs):
-    pass
+from report import create_response
 
 
 def get_text_from_file(bucket_name, storage_file):

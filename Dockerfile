@@ -5,7 +5,7 @@ FROM python:3.7-alpine
 WORKDIR /opt
 
 # Set environment variables
-ENV DEPS g++ gcc libc-dev  libxml2-dev libxslt-dev libffi libffi-dev jpeg-dev zlib-dev
+ENV DEPS g++ gcc libc-dev  libxml2-dev libxslt-dev libffi libffi-dev jpeg-dev zlib-dev cairo-dev cairo cairo-tools pango-dev
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONPATH=/opt/
 ENV TZ=Europe/Madrid
