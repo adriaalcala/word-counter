@@ -5,7 +5,7 @@ build-test:
 	docker-compose -f docker-compose.yml -f docker-compose.test.yml build
 
 run:
-	docker-compose run --rm wordcounter python main.py
+	docker-compose run --rm wordcounter python main.py $(args)
 
 help:
 	docker-compose run --rm wordcounter python main.py -h

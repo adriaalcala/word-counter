@@ -16,6 +16,19 @@ and then execute the command
     make run
 ```
 
+to add some extra args you can execute
+
+``` [bash]
+    make run args="arg1 arg2 ..."
+```
+
+for example to execute with verbose and csv report options you can execute
+
+``` [bash]
+    make run args="--verbose --store_csv"
+```
+
+
 Then a file named report.pdf will be created with the report.
 
 To get more help you can execute the command
